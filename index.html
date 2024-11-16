@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rsponsiveness of NavBar By Dom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1 class="navBar">NavBar</h1>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li>Contact Us</li>
+            <li>blog</li>
+            <li>address</li>
+        </ul>
+
+        <div>
+            <img src="./assets/facebook.png" alt="">
+            <img src="./assets/insta.png" alt="">
+            <img src="./assets/youtube.png" alt="">
+        </div>
+
+        <img class="menu" onclick="openDD()" src="./assets/menu.png" alt="">
+    </nav>
+
+
+<div class="dropDownParent">
+    <div class="dropDown">
+        <h1 >NavBar</h1>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a  href="about.html">about</a></li>
+            <li>contact us</li>
+            <li>blog</li>
+            <li>address</li>
+        </ul>
+
+        <div>
+            <img src="./assets/facebook.png" alt="">
+            <img src="./assets/insta.png" alt="">
+            <img src="./assets/youtube.png" alt="">
+        </div>
+
+        <img id="closeDropDown" onclick="closeNav()" src="./assets/close img.png" alt="">
+    </div>
+</div>  
+
+
+    
+    <div class="main">
+        <table class="table" cellspacing="3" cellpadding="8">
+            <thead class="head">
+                <tr>
+                    <th colspan="18">PERIODIC TABLE</th>
+                </tr>
+            </thead>
+            <tbody class="body">
+                <tr>
+                    <td class="orange">H<br>1</td>
+                    <td id="f" colspan="16"></td>
+                    <td class="blue">H<br>2</td>
+                </tr>
+                <tr>
+                    <td class="orange">Li<br>3</td>
+                    <td class="frozy">Be<br>4</td>
+                    <td colspan="10"></td>
+                    <td class="yellow">B<br>5</td>
+                    <td class="red">C<br>6</td>
+                    <td class="red">N<br>7</td>
+                    <td class="red">O<br>8</td>
+                    <td class="purple">F<br>9</td>
+                    <td class="blue">Ne<br>9</td>
+                </tr>
+                <tr>
+                    <td class="orange">Na<br>11</td>
+                    <td class="frozy">Mg<br>12</td>
+                    <td colspan="10"></td>
+                    <td class="yellow">AL<br>13</td>
+                    <td class="yellow">Si<br>14</td>
+                    <td class="red">P<br>15</td>
+                    <td class="red">S<br>16</td>
+                    <td class="purple">Cl<br>17</td>
+                    <td class="blue">Ar<br>18</td>
+                </tr>
+                <tr>
+                    <td class="orange">K<br>19</td>
+                    <td class="frozy">Ca<br>20</td>
+                    <td class="green">Sc<br>21</td>
+                    <td class="green">Ti<br>22</td>
+                    <td class="green">V<br>23</td>
+                    <td class="green">Cr<br>24</td>
+                    <td class="green">Mn<br>25</td>
+                    <td class="green">Fe<br>26</td>
+                    <td class="green">Co<br>27</td>
+                    <td class="green">Ni<br>28</td>
+                    <td class="green">Cu<br>29</td>
+                    <td class="green">Zn<br>30</td>
+                    <td class="yellow">Ga<br>31</td>
+                    <td class="yellow">Ge<br>32</td>
+                    <td class="yellow">As<br>33</td>
+                    <td class="red">Se<br>34</td>
+                    <td class="purple">Br<br>35</td>
+                    <td class="blue">Kr<br>36</td>
+                </tr>
+                <tr>
+                    <td class="orange">Rb<br>37</td>
+                    <td class="frozy">Sr<br>38</td>
+                    <td class="green">Y<br>39</td>
+                    <td class="green">Zr<br>40</td>
+                    <td class="green">Nb<br>41</td>
+                    <td class="green">Mo<br>42</td>
+                    <td class="green">Tc<br>43</td>
+                    <td class="green">Ru<br>44</td>
+                    <td class="green">Rh<br>45</td>
+                    <td class="green">Pd<br>46</td>
+                    <td class="green">Ag<br>47</td>
+                    <td class="green">Cd<br>48</td>
+                    <td class="yellow">ln<br>49</td>
+                    <td class="yellow">Sn<br>50</td>
+                    <td class="yellow">Sb<br>51</td>
+                    <td class="yellow">Te<br>52</td>
+                    <td class="purple">l<br>53</td>
+                    <td class="blue">Xe<br>54</td>
+                </tr>
+                <tr>
+                    <td class="orange">Cs<br>55</td>
+                    <td class="frozy">Ba<br>56</td>
+                    <td class="green">La<br>57</td>
+                    <td class="green">Hf<br>72</td>
+                    <td class="green">Ta<br>73</td>
+                    <td class="green">W<br>74</td>
+                    <td class="green">Re<br>75</td>
+                    <td class="green">Os<br>76</td>
+                    <td class="green">lr<br>77</td>
+                    <td class="green">Pt<br>78</td>
+                    <td class="green">Au<br>79</td>
+                    <td class="green">Hg<br>80</td>
+                    <td class="yellow">Tl<br>81</td>
+                    <td class="yellow">Pb<br>82</td>
+                    <td class="yellow">Bi<br>83</td>
+                    <td class="yellow">Po<br>84</td>
+                    <td class="purple">At<br>85</td>
+                    <td class="blue">Rn<br>86</td>
+                </tr>
+                <tr>
+                    <td class="orange">Fr<br>87</td>
+                    <td class="frozy">Ra<br>88</td>
+                    <td class="green">Ac<br>89</td>
+                    <td class="green">Rf<br>104</td>
+                    <td class="green">Db<br>105</td>
+                    <td class="green">Sg<br>106</td>
+                    <td class="green">Bh<br>107</td>
+                    <td class="green">Hs<br>108</td>
+                    <td class="green">Mt<br>109</td>
+                    <td class="green">Ds<br>110</td>
+                    <td class="green">Rg<br>111</td>
+                    <td class="green">Cn<br>112</td>
+                    <td><br></td>
+                    <td class="yellow">Fl<br>114</td>
+                    <td><br></td>
+                    <td class="yellow">Lv<br>116</td>
+                    <td colspan="2"><br></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+    
+                </tr>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><br></td>
+                    <td class="lgreen">Ce<br>58</td>
+                    <td class="lgreen">pr<br>59</td>
+                    <td class="lgreen">Nd<br>60</td>
+                    <td class="lgreen">Pm<br>61</td>
+                    <td class="lgreen">Sm<br>62</td>
+                    <td class="lgreen">Eu<br>63</td>
+                    <td class="lgreen">Gb<br>64</td>
+                    <td class="lgreen">Td<br>65</td>
+                    <td class="lgreen">Dy<br>66</td>
+                    <td class="lgreen">Ho<br>67</td>
+                    <td class="lgreen">Er<br>68</td>
+                    <td class="lgreen">Tm<br>69</td>
+                    <td class="lgreen">Yb<br>70</td>
+                    <td class="lgreen">Lu<br>71</td>
+                    <td><br></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><br></td>
+                    <td class="pink">Th<br>90</td>
+                    <td class="pink">Pa<br>91</td>
+                    <td class="pink">U<br>92</td>
+                    <td class="pink">Np<br>93</td>
+                    <td class="pink">Pu<br>94</td>
+                    <td class="pink">Am<br>95</td>
+                    <td class="pink">Cm<br>96</td>
+                    <td class="pink">Bk<br>97</td>
+                    <td class="pink">Cf<br>98</td>
+                    <td class="pink">Es<br>99</td>
+                    <td class="pink">Fm<br>100</td>
+                    <td class="pink">Md<br>101</td>
+                    <td class="pink">No<br>102</td>
+                    <td class="pink">Lr<br>103</td>
+                    <td><br></td>
+                </tr>
+    
+            </tfoot>
+        </table>
+    </div> 
+
+    <script src="apop.js"></script>
+</body>
+
+</html>

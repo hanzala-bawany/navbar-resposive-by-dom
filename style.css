@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/*  nav bar */
+
+nav {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: rgb(233, 157, 233);
+    
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+nav div {
+    display: flex;
+    column-gap: 10px;
+}
+
+nav div img {
+    height: 25px;
+    width: 25px;
+}
+
+nav .menu {
+    width: 25px;
+    display: none;
+}
+
+/*  dropDown */
+
+.dropDownParent{
+    width: 50%;
+    height: 60vh;
+    margin-left:100vw ;
+    position: absolute;
+    top: 0px;
+
+}
+.dropDown{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: skyblue;
+    position: relative;
+    /* animation: moveNav 1s ease-out forwards; */
+
+    
+}
+
+.dropDownAnimation{
+animation: moveNav 0.5s ease-out forwards;
+}
+@keyframes moveNav{
+100%{
+    margin-left:50vw ;
+    /* margin-left:auto ; 
+     align-self: flex-end;   */
+}
+}
+
+.dropDown h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dropDown ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.dropDown ul li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.dropDown div {
+    display: flex;
+    column-gap: 10px;
+}
+
+.dropDown div img {
+    height: 20px;
+    width: 20px;
+}
+
+.dropDown #closeDropDown {
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.dropDown #closeDropDown:hover{
+    background-color: rgb(225, 88, 88);
+}
+
+
+
+
+/*  main content */
+
+.main {
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+    overflow: hidden;
+}
+
+.table {
+    border: 3px solid;
+    width: 80vw;
+    /* margin: auto; */
+    background-color: white;
+}
+
+.orange {
+    background-color: rgb(244, 161, 7);
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.frozy {
+    background-color: rgb(96, 197, 237);
+}
+
+.green {
+    background-color: rgb(21, 177, 21);
+}
+
+.red {
+    background-color: rgb(244, 38, 38);
+}
+
+.purple {
+    background-color: rgb(189, 14, 189);
+}
+
+.blue {
+    background-color: rgb(72, 72, 241);
+}
+
+.lgreen {
+    background-color: rgb(168, 243, 175);
+}
+
+.pink {
+    background-color: pink;
+}
+
+
+@media only screen and (max-width:500px) and (max-height:1000px) {
+    nav div img {
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+
+    nav .menu {
+        display: inline-block;
+    }
+}
+
+.gaeb{
+    display: none !important;
+}
+ 
