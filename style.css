@@ -20,12 +20,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     text-transform: capitalize;
-    background-color: rgb(233, 157, 233);
+    background-color: rgb(229, 157, 233);
     
 }
 
 nav h1 {
-    font-size: 24px;
+    font-size: 25px;
 }
 
 nav ul {
@@ -40,7 +40,7 @@ nav ul li {
 
 nav div {
     display: flex;
-    column-gap: 10px;
+    column-gap: 10.5px;
 }
 
 nav div img {
@@ -71,7 +71,7 @@ nav .menu {
     justify-content: space-around;
     align-items: center;
     text-transform: capitalize;
-    background-color: skyblue;
+    background-color: rgb(154, 217, 243);
     position: relative;
     /* animation: moveNav 1s ease-out forwards; */
 
